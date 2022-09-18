@@ -12,3 +12,13 @@ export const navigations = [
 export const mobileNavigation = {
   name: "Menu",
 };
+
+// ** Header
+
+export const heroHeader = [
+  {
+    title: "The New 52! Wonder Woman",
+    release: "",
+  },
+  { title: "The New 52! Wonder Woman" },
+];

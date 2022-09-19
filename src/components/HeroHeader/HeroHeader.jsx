@@ -3,21 +3,23 @@
  */
 import React from "react";
 
-const HeroHeader = () => {
+const HeroHeader = ({ image, eyebrow, title, btnText }) => {
   return (
     <div>
-      <div className="relative -mt-[72px]">
-        <div>
+      <div className="relative">
+        <div className="bg-black">
           <img
-            className="w-full h-screen object-cover"
-            src={require("../../assets/image/hero-header.jpg")}
-            alt=""
+            className="w-full h-screen object-cover opacity-80"
+            src={image}
+            alt="hero header cover"
           />
         </div>
-        <div className="absolute bottom-40 ml-6">
-          <p>New Release</p>
-          <h1>The New 52! Wonder Woman</h1>
-          <button>Buy Now</button>
+        <div className="absolute bottom-40 ml-20">
+          <p className="text-base text-white ">{eyebrow}</p>
+          <h1 className="text-6xl font-bold italic text-white w-4/6 my-4">
+            {title}
+          </h1>
+          <button className="text-white bg-black px-5 py-2">{btnText}</button>
         </div>
       </div>
     </div>

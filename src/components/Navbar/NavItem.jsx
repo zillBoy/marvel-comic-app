@@ -5,7 +5,7 @@ import React from "react";
 
 const NavItem = ({ navigation, ...props }) => {
   return (
-    <p className="cursor-pointer hover:underline" {...props}>
+    <p className="font-semibold cursor-pointer hover:underline" {...props}>
       {navigation?.name}
     </p>
   );

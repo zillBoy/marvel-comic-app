@@ -13,7 +13,7 @@ import heroCover1 from "../../assets/image/hero-header-1.jpg";
 /**
  * External Dependencies
  */
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <Swiper
       className="swiper"
-      modules={[Pagination, Navigation]}
+      modules={[Pagination, Navigation, Autoplay]}
       spaceBetween={30}
       slidesPerView={1}
       pagination={{
@@ -31,6 +31,9 @@ const Header = () => {
       }}
       navigation={true}
       loop={true}
+      autoplay={{
+        delay: 5000,
+      }}
     >
       <SwiperSlide>
         <HeroHeader

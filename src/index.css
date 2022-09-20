@@ -37,3 +37,14 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #fff !important;
 }
+
+@media only screen and (max-width: 640px) {
+  .swiper-button-next {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .swiper-pagination {
+    margin-left: 32px !important;
+  }
+}

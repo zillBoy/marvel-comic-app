@@ -14,9 +14,9 @@ const HeroHeader = ({ image, eyebrow, title, btnText }) => {
             alt="hero header cover"
           />
         </div>
-        <div className="absolute bottom-40 ml-20">
+        <div className="absolute bottom-12 ml-8 sm:bottom-40 sm:ml-20">
           <p className="text-base text-white ">{eyebrow}</p>
-          <h1 className="text-6xl font-bold italic text-white w-4/6 my-4">
+          <h1 className="text-4xl sm:text-6xl font-bold italic text-white w-5/6 sm:w-4/6 md:w-4/6 my-4">
             {title}
           </h1>
           <button className="text-white bg-black px-5 py-2">{btnText}</button>

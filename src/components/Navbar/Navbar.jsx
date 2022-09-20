@@ -15,7 +15,7 @@ import { navigations, mobileNavigation } from "../../utils/constants";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="absolute w-full text-white z-50">
       <div className="sm:hidden flex flex-row-reverse py-6 pr-8">
         <NavItem navigation={mobileNavigation} />
       </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavItem navigation={nav} key={index} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

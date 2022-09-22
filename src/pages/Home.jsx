@@ -17,7 +17,7 @@ const Home = () => {
         <Navbar />
         <Header />
         <p>Home Page</p>
-        <Comic />
+        <Comic heading={"Top Comics"} />
         <p>hello world</p>
       </div>
     </>

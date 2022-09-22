@@ -27,7 +27,15 @@ const Comic = () => {
     getComics();
   }, []);
 
-  return <div>{!loading && <ComicList comics={comics} />}</div>;
+  return (
+    <div>
+      {!loading && (
+        <>
+          <ComicList title={"Top Comics"} comics={comics} />
+        </>
+      )}
+    </div>
+  );
 };
 
 export default Comic;

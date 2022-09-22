@@ -5,7 +5,7 @@ export const navigations = [
   { name: "Home" },
   { name: "Shop" },
   { name: "Blog" },
-  { name: "Subscribe" },
+  { name: "Subscribe", href: "#subscribe" },
   { name: "Samples" },
 ];
 

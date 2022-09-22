@@ -9,6 +9,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Header from "../components/Header/Header";
 import Comic from "../components/Comic/Comic";
+import Banner from "../components/Banner/Banner";
 
 const Home = () => {
   return (
@@ -16,9 +17,8 @@ const Home = () => {
       <div>
         <Navbar />
         <Header />
-        <p>Home Page</p>
         <Comic heading={"Top Comics"} />
-        <p>hello world</p>
+        <Banner />
       </div>
     </>
   );

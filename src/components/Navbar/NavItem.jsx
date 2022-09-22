@@ -3,11 +3,14 @@
  */
 import React from "react";
 
-const NavItem = ({ navigation, ...props }) => {
+const NavItem = ({ navigation: { name, ...navProps }, ...props }) => {
   return (
-    <p className="font-semibold cursor-pointer hover:underline" {...props}>
-      {navigation?.name}
-    </p>
+    <a
+      className="scroll-smooth font-semibold cursor-pointer hover:underline"
+      {...navProps}
+    >
+      {name}
+    </a>
   );
 };
 

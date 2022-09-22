@@ -9,9 +9,12 @@ const ComicCard = ({ comic: { name, image, genre } }) => {
   };
 
   return (
-    <div onClick={comicDetailHandler} className="w-60 hover:cursor-pointer">
+    <div
+      onClick={comicDetailHandler}
+      className="w-36 sm:w-60 hover:cursor-pointer m-2"
+    >
       <img
-        className="w-60 h-80 object-cover"
+        className="w-36 h-40 sm:w-60 sm:h-80 object-cover"
         src={image}
         alt={`comic ${name}`}
       />

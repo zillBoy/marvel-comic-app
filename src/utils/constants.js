@@ -82,4 +82,18 @@ export const comicData = [
       "https://mir-s3-cdn-cf.behance.net/project_modules/fs/00ea4e141261571.62505a914c6af.jpg",
     genre: "Sci-Fi",
   },
+  {
+    id: 9,
+    name: "Spiderman",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f807a139416133.622f78bfd0767.jpg",
+    genre: "Sci-Fi",
+  },
+  {
+    id: 10,
+    name: "Batman",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/00ea4e141261571.62505a914c6af.jpg",
+    genre: "Sci-Fi",
+  },
 ];

@@ -48,3 +48,9 @@ body {
     margin-left: 32px !important;
   }
 }
+
+/* Comic List */
+
+.comic-list-title {
+  clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+}

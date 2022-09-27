@@ -133,7 +133,7 @@ export const characterList = [
     name: "Hulk",
   },
   {
-    id: 5,
+    id: 6,
     image: character5,
     name: "Black Widow",
   },

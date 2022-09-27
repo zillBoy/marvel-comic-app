@@ -11,7 +11,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative mt-4" id="subscribe">
+    <div className="relative" id="subscribe">
       <div className="bg-gradient-to-r from-stone-900">
         <img
           className="w-full h-80 object-cover opacity-60"

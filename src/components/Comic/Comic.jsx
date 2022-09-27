@@ -31,7 +31,7 @@ const Comic = () => {
     <div>
       {!loading && (
         <>
-          <ComicList title={"Top Comics"} comics={comics} />
+          <ComicList comics={comics} />
         </>
       )}
     </div>

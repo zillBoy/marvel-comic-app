@@ -19,9 +19,9 @@ const Home = () => {
       <div>
         <Navbar />
         <Header />
-        <Comic heading={"Top Comics"} />
-        <Banner />
+        <Comic />
         <Character />
+        <Banner />
         <Footer />
       </div>
     </>

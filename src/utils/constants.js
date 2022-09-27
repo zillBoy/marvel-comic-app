@@ -1,3 +1,10 @@
+// Character Images
+import character1 from "../assets/image/character-1.jpg";
+import character2 from "../assets/image/character-2.jpg";
+import character3 from "../assets/image/character-3.jpg";
+import character4 from "../assets/image/character-4.jpg";
+import character5 from "../assets/image/character-5.jpg";
+
 // ** Navbar navigations
 
 // Larger device navigation (tablet, laptop)
@@ -95,5 +102,39 @@ export const comicData = [
     image:
       "https://mir-s3-cdn-cf.behance.net/project_modules/fs/00ea4e141261571.62505a914c6af.jpg",
     genre: "Sci-Fi",
+  },
+];
+
+// Characters
+export const characterList = [
+  {
+    id: 1,
+    image: character1,
+    name: "Thor",
+  },
+  {
+    id: 2,
+    image: character2,
+    name: "Ironman",
+  },
+  {
+    id: 3,
+    image: character3,
+    name: "Spiderman",
+  },
+  {
+    id: 4,
+    image: character4,
+    name: "Captain Marvel",
+  },
+  {
+    id: 5,
+    image: character2,
+    name: "Hulk",
+  },
+  {
+    id: 5,
+    image: character5,
+    name: "Black Widow",
   },
 ];

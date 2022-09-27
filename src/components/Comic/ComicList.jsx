@@ -10,7 +10,7 @@ import ComicCard from "./ComicCard";
 
 const ComicList = ({ title, comics = [] }) => {
   return (
-    <div>
+    <div className="my-4">
       <h3 className="comic-list-title text-xl sm:text-2xl text-white py-2 px-6 mb-2 bg-red-500 w-48">
         {title}
       </h3>

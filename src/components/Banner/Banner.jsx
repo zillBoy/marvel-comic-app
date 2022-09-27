@@ -19,14 +19,17 @@ const Banner = () => {
           alt="banner"
         />
       </div>
-      <div className="absolute top-16 px-6">
+      <div className="absolute top-8 sm:top-16 px-6">
         <p className="text-2xl sm:text-3xl font-semibold uppercase text-white italic">
           Subscribe To
         </p>
         <p className="text-4xl sm:text-6xl font-black uppercase text-white italic">
           Our mailing list
         </p>
-        <input ref={emailRef} className="w-60 mt-24 sm:mt-8 py-1.5 px-2" />
+        <input
+          ref={emailRef}
+          className="w-56 sm:w-60 mt-24 sm:mt-8 py-1.5 px-2"
+        />
         <button className="bg-red-800 py-1.5 px-6 text-white my-2 mx-2">
           Send
         </button>
